@@ -1,0 +1,33 @@
+{
+  "name": "leaf",
+  "version": "1.0.0",
+  "description": "a simple javascript library to build user interfaces",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalst32/leaf.git"
+  },
+  "keywords": [
+    "leaf",
+    "faisal",
+    "leafjs"
+  ],
+  "author": "Faisal Rashid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faisalst32/leaf/issues"
+  },
+  "homepage": "https://github.com/faisalst32/leaf#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
